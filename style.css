@@ -1,0 +1,46 @@
+td{
+    
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: green;
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
+    text-shadow: 1px 1px 0px;
+    box-shadow: 2px 2px;
+    
+}
+table{
+    height: 200px;
+    /* border-bottom: 6px groove rgb(13, 14, 13); */
+    padding-bottom: 30px;
+    margin: 20px auto;
+    border-spacing: 20px;
+    
+}
+td:hover{
+    background-color: rgb(250, 246, 246);
+    
+}
+div{
+    width: 80%;
+    margin: 0 auto;
+    display: inline-block;
+}
+.jk{
+    width: 100%;
+    z-index: 100000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+a{
+    box-shadow: none;
+    font-size: xx-large;
+    color: black;
+}
